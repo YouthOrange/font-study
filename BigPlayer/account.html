@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎使用大玩家银行！</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body onload="welcome()">
+    <div class="box">
+        <div class="center_box">
+            <div id="title_box"><br></div>
+            <br>
+            <div class="money_box">
+                <a>账户余额：</a>
+                <p>
+                    <script>
+                        document.write(getMoney());
+                            </script>
+                </p>
+            </div>
+            <div class="input_box">
+                <a href="drawing.html"><input type="button" class="btn btn-info" name="drawing" value="取款"></a>
+                <a href="deposit.html"><input type="button" class="btn btn-info" name="regist" value="存款"></a>
+            </div>
+            <div class="input_box">
+                <button onclick="logout()" class="btn btn-info">退出</button>
+            </div>
+
+            
+        </div>
+
+        <div class="bottom_box">
+            <i>Copyright ©2014-2018 BIGPLAYER, All Rights Reserved</i>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎你，请先登陆！</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="center_box">
+            <h2>欢迎使用大玩家银行，请登录！</h2>
+
+            <div class="input_box">
+                <a>账号 ：</a><input id="uname" type="text" name="user" placeholder="请输入用户名">
+            </div>
+            <div class="input_box">
+                <a>密码 ：</a><input id="upass" type="password" name="psw" placeholder="请输入密码">
+            </div>
+            <div id="error_box"><br></div>
+            <div class="input_box">
+                <button type="button" class="btn btn-primary" onclick="checkUser()">登陆</button>
+                <a href="regist.html"><input type="button" class="btn btn-info" name="regist" value="注册"></a>
+            </div>
+
+        </div>
+        <div class="bottom_box">
+            <i>Copyright ©2014-2018 BIGPLAYER, All Rights Reserved</i>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
