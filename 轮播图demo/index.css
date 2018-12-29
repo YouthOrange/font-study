@@ -1,0 +1,68 @@
+.main_box{ 
+    margin-top: 100px; 
+    margin-left: 465px;
+    border:5px solid gray;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    padding-top: 10px;
+/*     overflow: hidden; */
+}
+.show_box{
+    height: 300px;
+    width: 480px;
+    margin-left: 8px;
+/*     border: 2px solid gray; */
+    overflow: hidden;
+    
+   
+}
+.img_box{
+    position: absolute;
+    height: 300px;
+    width: 2500px;
+    left: -500px;
+}
+.img_box img{  
+    float: left;
+    width: 500px;
+    height: 300px;
+    cursor: pointer; 
+}
+.button_box{
+    border: 2px solid black;   
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    margin-top:20px;
+    padding-top:10px;
+}
+.button_box span{
+    float: left;
+    margin-right: auto;
+    margin-left: 55px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px gray;
+    background: #333;
+    cursor: pointer;   
+}
+.button_box span:hover
+{
+    background: red;
+}
+.arrow{
+            position: absolute;
+            top: 180px;
+            z-index: 2;
+            display: none;
+            width: 40px;
+            height: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 39px;
+            text-align: center;
+            color: green;
+            cursor: pointer;
+}
